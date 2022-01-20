@@ -5,6 +5,7 @@ class Thunderstruck < Formula
   sha256 "6ffadabe93ca4a55bf2107d45e88174be91f7af964abc9d57cf3bf2b8efe294d"
   license ""
 
+  depends_on "openssl@1.1"
   depends_on "rust" => :build
 
   def install
